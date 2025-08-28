@@ -1,0 +1,4 @@
+venv310/
+USK-COFFEE_Dataset/*
+!USK-COFFEE_Dataset/data.yaml
+
