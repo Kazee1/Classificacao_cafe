@@ -1,4 +1,4 @@
-from multiprocessing import freeze_support
+#from multiprocessing import freeze_support
 from ultralytics import YOLO
 def main():
     model = YOLO('yolov13n.pt')
@@ -10,8 +10,10 @@ def main():
     batch=4, 
     imgsz=640,
     device="0",
+    project="runs",
+    name="trainCoffee"
     )
 
 if __name__ == '__main__':
-    freeze_support() #windows roda isso 
+    #freeze_support() #windows roda isso 
     main()
