@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../val/images
+test: ../test/images
+
+nc: 1
+names: ['coffee']
+
+roboflow:
+  workspace: coffee-wdzjt
+  project: usk-coffee-dataset-qvql3
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/coffee-wdzjt/usk-coffee-dataset-qvql3/dataset/1
