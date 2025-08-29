@@ -1,7 +1,6 @@
 venv310/
 synthetic_physics/*
-!synthetic_physics/data.yaml
 USK-COFFEE_Dataset/*
 !USK-COFFEE_Dataset/data.yaml
-
+!synthetic_physics/data.yaml
 
